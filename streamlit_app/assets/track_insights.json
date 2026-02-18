@@ -1,0 +1,458 @@
+{
+  "Bahrain Grand Prix": {
+    "length_speed": { "tagline": "Stop-Go Power Circuit", "description": "Bahrain is defined by four long straights punctuated by heavy braking zones. High top speed is vital, but the ability to deploy battery power effectively out of slow corners is the deciding factor. Unlike Monza, which is about pure low drag, Bahrain requires a drag-efficient setup that doesn't sacrifice the stability needed for massive deceleration."},
+    "corner_types": { "tagline": "15 Turns — Low-Speed Technicality & High-Speed Sweeps", "description": "The circuit is a stern test of braking stability, particularly at Turn 10, a downhill, off-camber left-hander where front-locking is common. While the Point-and-Shoot nature of the slow turns offers prime overtaking spots, the high-speed Turn 12 requires significant front-end bite and aerodynamic confidence to maintain minimum corner speed." },
+    "evolution_grip": { "tagline": "High-Degradation Desert Reset", "description": "The asphalt in Sakhir is among the most abrasive on the calendar, leading to high thermal degradation. While the track rubbers in over the weekend, the desert location introduces sand onto the surface, which can lead to unpredictable green track conditions if the wind picks up. Because the race occurs at dusk, track temperatures drop rapidly." },
+    "drs_zones": { "tagline": "3 Triple Traction Sprints", "description": "Three DRS zones, located on the main straight and between turns 3-4 and 10-11, make Sakhir one of the easiest tracks for overtaking. Since these zones follow slow corners, the Winning Edge goes to cars with superior traction (exit drive) rather than just top-end speed." }
+  },
+
+"Saudi Arabian Grand Prix": {
+    "length_speed": {
+      "tagline": "The World's Fastest Street Circuit",
+      "description": "Jeddah is a relentless high-speed corridor where drivers average over 250 km/h. It demands an incredibly low-drag aerodynamic profile to stay competitive on the long, curved \"straights.\" Because the walls are so close, engine cooling is a challenge as there is less \"clean air\" compared to permanent tracks."
+    },
+    "corner_types": {
+      "tagline": "27 Turns — Fastest Street Section",
+      "description": "The track consists of 27 turns, most of which are taken at high speed. The \"Esses\" (Turns 4-12) require a car with an extremely responsive front axle and high downforce to change direction rapidly without losing the rear. There are very few heavy braking zones, meaning momentum is everything."
+    },
+    "evolution_grip": {
+      "tagline": "Low Degradation / Smooth",
+      "description": "As a street circuit used infrequently, the track begins the weekend very \"dusty.\" However, because the asphalt is relatively new and non-abrasive, track evolution is massive. Grip levels increase significantly as the weekend progresses, favoring teams whose cars can adapt to rapidly increasing lateral loads."
+    },
+    "drs_zones": {
+      "tagline": "3 Zones — Tactical Games",
+      "description": "Three DRS zones on high-speed stretches allow for constant pressure. The unique challenge here is the \"tactical braking\" at the detection points (especially before the final hairpin) to ensure a driver has DRS for the main straight, often leading to \"cat-and-mouse\" games between leaders."
+    }
+  },
+
+"Australian Grand Prix": {
+    "length_speed": {
+      "tagline": "The High-Speed Park Circuit",
+      "description": "Since the 2022 layout changes, Albert Park has become much faster. It rewards aerodynamic efficiency and a car that is \"pointy\" at high speeds. The removal of the old chicane means cars spend a significantly higher percentage of the lap at full throttle, putting a premium on engine reliability and MGU-H harvesting."
+    },
+    "corner_types": {
+      "tagline": "14 Turns —Short Braking Zones",
+      "description": "The turn 9-10 high-speed flip-flop is the signature section, requiring a car that can handle aggressive kerb-riding without becoming unsettled. Stability through the fast sweeps is more important than low-speed traction here, as the slow corners are relatively straightforward compared to Bahrain."
+    },
+    "evolution_grip": {
+      "tagline": "The Street Track Hybrid",
+      "description": "As a semi-permanent facility, the grip on Friday is notoriously low. The surface is smoother than Sakhir, leading to \"graining\" issues if the tires don't reach the correct temperature window. Teams often struggle with \"front-end\" limited setups early in the weekend before the track fully rubbers in."
+    },
+    "drs_zones": {
+      "tagline": "4 DRS Zones- The Quad-Zone Advantage",
+      "description": "Melbourne often utilizes four DRS zones, the most on the calendar. This creates a \"DRS Train\" effect where overtaking is difficult unless a driver has a massive tire advantage. The zone between turns 8 and 9 is particularly critical for setting up a pass into the fast chicane."
+    }
+  },
+
+
+"Japanese Grand Prix": {
+    "length_speed": {
+      "tagline": "The Aerodynamic Masterclass",
+      "description": "Suzuka is a \"high-downforce\" track that tests the absolute limits of a car's aerodynamic platform. Efficiency is key; cars must be \"bolted\" to the ground to handle the massive lateral loads. It is a front-limited track, meaning the car's ability to turn in without understeering determines the lap time."
+    },
+    "corner_types": {
+      "tagline": "18 Turns — The 'S' Curves",
+      "description": "The \"S\" Curves in Sector 1 are legendary—a mistake in the first turn ruins the rhythm for the next four. The 130R is a flat-out test of courage and aero-stability, while the Degner curves require precision. There are very few \"heavy\" braking zones, making it a track of pure flow."
+    },
+    "evolution_grip": {
+      "tagline": "Old-School Abrasive High-Grip",
+      "description": "Suzuka has an older, high-grip asphalt that is very consistent. Unlike street tracks, it doesn't evolve massively over the weekend because the surface is already \"open\" and grippy. However, high energy through the tires means thermal degradation is the primary concern for race strategy."
+    },
+    "drs_zones": {
+      "tagline": "1 Zone — Limited Effect",
+      "description": "With only one DRS zone on the main straight, Suzuka is one of the hardest tracks for overtaking. This places an extreme premium on Qualifying performance. A driver must be exceptionally close through the final chicane to have any hope of a move into Turn 1."
+    }
+  },
+
+
+
+"Chinese Grand Prix": {
+    "length_speed": {
+      "tagline": "The Front-Tyre Killer",
+      "description": "Shanghai features one of the longest straights in F1 (1.2km), demanding a compromise between low-drag for the straight and high-downforce for the technical sections. It is famously \"front-limited\" due to the unusually long, tightening corners like Turn 1."
+    },
+    "corner_types": {
+      "tagline": "16 Turns —Spiral Turns & Heavy Deceleration",
+      "description": "Turn 1 is a unique \"snail\" corner that tightens as it goes, putting immense stress on the front-left tire. Sector 3 is dominated by the massive back straight and a heavy braking zone into the hairpin at Turn 14, which is the primary overtaking spot on the circuit."
+    },
+    "evolution_grip": {
+      "tagline": "Surface Sensitivity & Temperature Swings",
+      "description": "The track is built on swampland, leading to a slightly \"bumpy\" surface that evolves as it is cleaned. Shanghai can be quite cold, leading to \"cold-tearing\" of the tires. The competitive order often shifts based on which team can keep the front tires within the operating window."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones —The Longest Pull",
+      "description": "The back straight DRS is one of the most powerful on the calendar. The length of this zone means a car with a lower-downforce \"skinny\" wing can often defend against a faster car that is struggling with drag."
+    }
+  },
+
+
+"Miami Grand Prix": {
+    "length_speed": {
+      "tagline": "The Modern Hybrid Street Sprint",
+      "description": "Miami feels like a mix of a permanent track and a street circuit. It has a very long 1.28km straight that rewards engine power and aerodynamic efficiency, but it is surrounded by concrete walls that punish the slightest error."
+    },
+    "corner_types": {
+      "tagline": "Tight Technicality & Wide Sweeps",
+      "description": "The chicane at Turns 14-15 is incredibly tight and slow, requiring a car that can \"climb\" kerbs effectively. In contrast, the high-speed sections in Sector 1 require a stable rear end. It is a track that demands a \"Jack of all Trades\" car setup."
+    },
+    "evolution_grip": {
+      "tagline": "Low-Grip Asphalt & Tropical Heat",
+      "description": "The specialized asphalt used in Miami has historically been very \"slippery\" when off the racing line. Evolution is high, but the \"marbles\" (discarded rubber) off-line make overtaking risky. High track temperatures often lead to greasy surface conditions."
+    },
+    "drs_zones": {
+      "tagline": "3 Zones — Triple Threat Tactics",
+      "description": "DRS zones, including a massive one on the back straight, facilitate plenty of overtaking. Because the zones are separated by technical sections, a driver can often \"re-pass\" a lap later if they manage their battery deployment better than their rival."
+    }
+  },
+
+
+
+"Emilia-Romagna Grand Prix": {
+    "length_speed": {
+      "tagline": "The Old-School Rollercoaster",
+      "description": "Imola is a narrow, undulating ribbon of asphalt that requires high aerodynamic downforce and extreme mechanical confidence. It is a high-speed circuit where the car is constantly \"loaded\" in corners. Efficiency is important, but because the track is so narrow, teams prioritize a stable aero-platform over pure top speed to ensure the driver can attack the corners."
+    },
+    "corner_types": {
+      "tagline": "19 Turns — Aggressive Kerbs & High-Speed Chicanes",
+      "description": "The track is defined by its chicanes (Variante Tamburello, Villeneuve, and Alta). The \"Winning Edge\" goes to cars with superior suspension damping that can \"munch\" the high kerbs without losing balance. The Acque Minerali section requires a perfect front-end turn-in while the car is compressed by downhill G-forces."
+    },
+    "evolution_grip": {
+      "tagline": "Narrow Racing Line",
+      "description": "As a permanent, historic facility, the asphalt is mature and provides high base grip. Track evolution is moderate compared to street circuits. However, Imola is notorious for its micro-climates; moisture often lingers in the valley, leading to \"greasy\" track conditions that can catch out even the most experienced drivers during the morning sessions."
+    },
+    "drs_zones": {
+      "tagline": "1 Zone — Main Straight",
+      "description": "Imola typically features only one real overtaking opportunity from Rivazza to the Tamburello chicane. Because the track is narrow and overtaking is notoriously difficult, the DRS is more of a \"gap-closer\" than a guaranteed passing tool. Qualifying position here is 80% of the battle."
+    }
+  },
+
+
+"Monaco Grand Prix": {
+    "length_speed": {
+      "tagline": "The Ultimate High-Downforce Maze",
+      "description": "Monaco is the shortest and slowest track on the calendar, but arguably the most demanding. Top speed is irrelevant; the focus is entirely on \"Maximum Downforce\" (often using bespoke wings) and low-speed mechanical grip. Teams will sacrifice all aerodynamic efficiency just to find an extra 1% of cornering \"bite.\""
+    },
+    "corner_types": {
+      "tagline": "19 Turns",
+      "description": "The Grand Hotel Hairpin is the slowest corner in F1, requiring increased steering rack angles. The Swimming Pool section is a high-speed test of reflexes where the car must dance between the barriers. There is no room for error; the car must be \"compliant\" enough to handle the bumpy city streets without bouncing into a wall."
+    },
+    "evolution_grip": {
+      "tagline": "From Public Road to Racing Line",
+      "description": "Monaco sees the most dramatic track evolution of the year. It starts the weekend as a dusty public road and \"rubbers in\" significantly. However, because the track is \"opened\" to public traffic each evening, the grip levels partially reset every night, making the start of each session a treacherous affair."
+    },
+    "drs_zones": {
+      "tagline": "1 Zone — The Shortest Pull on the Calendar",
+      "description": "The single DRS zone on the short pit straight is rarely enough for a clean overtake. In Monaco, DRS is used strategically to stay within the 1-second window of the car ahead to attempt an \"undercut\" in the pits. Overtaking usually requires a massive mistake from the car in front."
+    }
+  },
+
+
+"Canadian Grand Prix": {
+    "length_speed": {
+      "tagline": "The Heavy-Braking Power Circuit",
+      "description": "Montreal is a high-speed circuit that feels like a permanent track but has the characteristics of a street circuit. It is a \"power track\" with long straights that put extreme stress on the MGU-K and the internal combustion engine. Low-drag setups are common, but the car must remain stable under the massive braking loads at the end of the straights."
+    },
+    "corner_types": {
+      "tagline": "14 Turns — Wall of Champions",
+      "description": "The circuit is a series of chicanes and short straights. The final chicane is the most famous, featuring the \"Wall of Champions.\" A car that can ride the kerbs aggressively at high speed while maintaining enough traction to \"squirt\" out of the slow exits will dominate the lap times."
+    },
+    "evolution_grip": {
+      "tagline": "Low-Usage Green Track",
+      "description": "The surface at Circuit Gilles Villeneuve is used very little outside of F1. It is very smooth but low-grip on Friday. It is also highly susceptible to temperature changes; a passing cloud can drop track temperatures by 10 degrees, causing the tires to fall out of their operating window and leading to \"grainy\" rubber."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — The Slingshot",
+      "description": "The massive back straight and one on the pit straight—create one of the best overtaking circuits of the year. The zones are back-to-back, meaning if you pass a car on the back straight, you must immediately defend your position on the pit straight."
+    }
+  },
+
+"Spanish Grand Prix": {
+    "length_speed": {
+      "tagline": "The Aerodynamic Benchmark",
+      "description": "Barcelona is the track every team knows best. It is a \"medium-to-high downforce\" circuit that tests every aspect of a car’s aerodynamic efficiency. Since the removal of the final chicane, the final sector is now lightning-fast, placing an even higher premium on aero-balance and front-tire endurance."
+    },
+    "corner_types": {
+      "tagline": "14 Turns —The Lateral G-Force Test",
+      "description": "Turn 3 and Turn 9 are long, high-speed right-handers that put immense energy through the front-left tire. If a car is \"balanced,\" it will fly here; if it has \"understeer,\" the driver will destroy the tires within five laps. It is the ultimate test of a car's \"chassis-aero\" harmony."
+    },
+    "evolution_grip": {
+      "tagline": "Overheating Risk",
+      "description": "The asphalt is well-understood and stable. Evolution is moderate, but the track is very sensitive to wind. A tailwind into Turn 1 can suddenly remove the car's front-end downforce, causing drivers to miss the apex. Strategy is often dominated by tire management rather than track evolution."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Main Straight",
+      "description": "The main straight zone is very powerful, but the \"Winning Edge\" often comes from a car's ability to stay close through the high-speed final corner. If you can stay within 0.5s through the final turn, the DRS pass into Turn 1 is almost a certainty."
+    }
+  },
+
+
+"Austrian Grand Prix": {
+    "length_speed": {
+      "tagline": "The Short-Lap Sprint",
+      "description": "The Red Bull Ring has the fewest corners (10) and the shortest lap time on the calendar. It is a high-altitude \"power and traction\" track. The thin air means the turbo has to spin faster to maintain power, and the cooling systems are pushed to their absolute limit. It is a \"sprint\" from start to finish."
+    },
+    "corner_types": {
+      "tagline": "10 Turns — Severe Kerbs & Downhill Braking",
+      "description": "The first three corners are all uphill, heavy-braking zones followed by steep exits, making traction and \"anti-dive\" suspension critical. The final two corners are high-speed downhill sweeps that require massive rear-end stability. The \"sausage kerbs\" here are famous for breaking front wings and suspension components."
+    },
+    "evolution_grip": {
+      "tagline": "The Temperature-Sensitive Plateau",
+      "description": "Because of its mountain location, track temperatures can fluctuate wildly. The asphalt is relatively smooth, but the high-energy nature of the short lap means tires rarely get a \"rest.\" A car that is gentle on its rear tires will have a massive advantage in the final stint of the race."
+    },
+    "drs_zones": {
+      "tagline": "3 Zones — Consecutive",
+      "description": "DRS zones follow Turns 1, 3, and 10. This creates a \"chain reaction\" where cars can overtake and re-overtake. Strategic use of ERS (battery power) is vital here; you don't want to use all your energy in the first DRS zone only to be a sitting duck in the second."
+    }
+  },
+
+  
+ "British Grand Prix": {
+    "length_speed": {
+      "tagline": "The High-Speed Cathedral",
+      "description": "Silverstone is all about speed, flow, and \"high-speed downforce.\" It is one of the fastest tracks of the year, where cars are pushed to the physical limit of their aerodynamic platforms. It is a \"front-limited\" track that requires a car with an indestructible front-end that won't wash out in high-speed transitions."
+    },
+    "corner_types": {
+      "tagline": "18 Turns — Maggotts-Becketts",
+      "description": "The Maggotts-Becketts-Chapel complex is the fastest sequence of corners in F1, taken at over 250 km/h. The car must change direction like a fighter jet. Copse is now almost flat-out, and Stowe requires immense bravery and aerodynamic \"bite.\" It is a track where the driver must trust the car implicitly."
+    },
+    "evolution_grip": {
+      "tagline": "The High-Energy Abrasive Challenge",
+      "description": "The asphalt was resurfaced recently but remains high-energy. The \"rubbering in\" effect is less significant than the \"wind effect.\" Because the track is on an old airfield, the wind is often high and unpredictable, which can stall the aerodynamics of a car mid-corner, leading to sudden snaps of oversteer."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Hangar Straights",
+      "description": "DRS zones are located on the Wellington and Hangar straights. While they assist in overtaking, Silverstone is a track where the car's \"dirty air\" performance is key. If a car can follow closely through the high-speed turns, the DRS serves as the final \"dagger\" to complete the move."
+    }
+  },
+
+"Hungarian Grand Prix": {
+    "length_speed": {
+      "tagline": "The Karting-Style Tech Challenge",
+      "description": "The Hungaroring is often compared to a oversized go-kart track because it lacks significant straights and requires intense focus on technical driving. It favors cars with exceptional medium and low-speed cornering stability. Because there is so little downtime for the car, teams prioritize a high-downforce configuration to manage the constant lateral transitions."
+    },
+    "corner_types": {
+      "tagline": "14 Turns — Technical Flow",
+      "description": "The circuit is a continuous series of corners, including a downhill main straight into the Turn 1 hairpin, which is the primary overtaking point. The tight infield section of Sector 2 demands precise chassis balance; oversteer here is common and costly as grip remains at a premium throughout the lap."
+    },
+    "evolution_grip": {
+      "tagline": "The Dusty Low-Grip Transformation",
+      "description": "Located in a natural bowl, the track is often dusty and 'green' at the start of the weekend. As rubber is laid down, grip levels increase significantly, though aggressive driving is limited by the lack of cooling straights. High ambient temperatures in July often lead to thermal tire degradation, making strategy crucial."
+    },
+    "drs_zones": {
+      "tagline": "1 Zone — Main Straight",
+      "description": "The DRS zones are located prior to the tight infield section. Because clear passing opportunities are rare elsewhere, these zones are essential for setting up a move into Turn 1 or Turn 3."
+    }
+  },
+
+
+"Belgian Grand Prix": {
+    "length_speed": {
+      "tagline": "The Giant (7km)",
+      "description": "Spa is the longest track on the calendar and presents a unique setup challenge: finding a balance between the high-speed first and third sectors and the twisty, slower second sector. Teams often have to choose between a 'skinny' wing for top speed on the Kemmel Straight or more downforce for the middle sector."
+    },
+    "corner_types": {
+      "tagline": "20 Turns",
+      "description": "The legendary Eau Rouge-Raidillon complex subjects cars to massive vertical compression. Pouhon is another standout, a high-speed left-hander taken nearly flat-out that pushes car-spec limits. The Bus Stop chicane at the end of the lap is the final test of braking stability before the finish line."
+    },
+    "evolution_grip": {
+      "tagline": "The Micro-Climate & Resurfaced Grip",
+      "description": "Spa's weather is notoriously unpredictable, with rain often falling on one part of the track while another remains dry. A major portion of the circuit was resurfaced for 2024, providing extra grip but potentially shifting the thermal degradation balance."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Kemmel Straight",
+      "description": "The zone following Eau Rouge onto the Kemmel Straight being one of the most powerful for overtaking. A poor exit from La Source at the start of the lap can make a driver vulnerable all the way to Les Combes."
+    }
+  },
+
+
+"Dutch Grand Prix": {
+    "length_speed": {
+      "tagline": "The High-Banked Flowing Sprint",
+      "description": "Zandvoort is a vintage venue that features steep banking at Turns 3 and 14, with gradients nearly double those of Indianapolis. This creates unique vertical loads on the tires and suspension. It is a narrow, undulating track where drivers must maintain momentum through high-speed sections."
+    },
+    "corner_types": {
+      "tagline": "14 Turns — The Banking",
+      "description": "The 18-degree banking at Turn 3 and the final corner (Arie Luyendykbocht) allow for multiple racing lines but require absolute commitment. The middle sector is a punishing sequence of undulating corners where a 'random snap of oversteer' often results in a trip to the barriers."
+    },
+    "evolution_grip": {
+      "tagline": "The Sand-Blasted Beachside Surface",
+      "description": "Proximity to the North Sea means wind often coats the track in sand, significantly lowering grip. While the track is narrow and passing is difficult, evolution can be high as the sand is swept away and rubber is deposited during stable dry sessions."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Banked Entry Speed",
+      "description": "DRS is typically activated coming out of the banked final corner to maximize speed down the pit straight. Because the track is so narrow, the run into the Turn 1 'Tarzan' hairpin is the most realistic passing opportunity."
+    }
+  },
+
+"Italian Grand Prix": {
+    "length_speed": {
+      "tagline": "The Temple of Speed",
+      "description": "Monza is one of the fastest circuits in the world, requiring the lowest downforce levels of the season to minimize drag on its long straights. Drivers pull up to 5Gs of braking force at the end of the main straight, decelerating from over 350 km/h into the first chicane."
+    },
+    "corner_types": {
+      "tagline": "11 Turns — Parabolica",
+      "description": "The layout is simple but punishing; Position is everything. Braking too late compromises the exit speed needed for the following straight. The final corner, the Curva Parabolica, is a high-speed demonstration of F1 aero-capability, where the car 'sticks' despite extreme entry speeds."
+    },
+    "evolution_grip": {
+      "tagline": "Resurfaced Efficiency & Slipstream Games",
+      "description": "For 2024, Monza featured a re-laid surface and a wider first chicane to improve racing. The track surface generally provides more grip now, but low downforce means cars are still prone to sliding under heavy braking, which can punish tires early in a stint."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones —  Slipstream Slingshot",
+      "description": "Including the main straight, Monza is built for high-speed chasing. DRS effectiveness is essential here, as the slim 'Monza-spec' wings already have low drag, making every fraction of a second gained with the flap open critical for overtakes."
+    }
+  },
+
+"Azerbaijan Grand Prix": {
+    "length_speed": {
+      "tagline": "The High-Speed Street Paradox",
+      "description": "Baku is a unique hybrid of tight technical sections and a massive 2.2km flat-out promenade. It is one of the longest tracks in the world and produces the highest top speeds on a street circuit, often exceeding 350 km/h."
+    },
+    "corner_types": {
+      "tagline": "20 Turns — 90-Degree 90s",
+      "description": "The 'Castle Section' (Turns 8-12) is the narrowest point in F1, measuring just 7.6 meters wide. This technical labyrinth contrasts sharply with the high-speed downhill final sector and the sequence of 90-degree corners that test braking and traction."
+    },
+    "evolution_grip": {
+      "tagline": "Low Grip Street",
+      "description": "Situated 28m below sea level, Baku is often dusty and slippery early in the weekend. As the first race after the European leg in September for 2024, teams had to manage high track evolution and potential debris on the narrow street surface."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — 2.2km Flat Out",
+      "description": "The main straight DRS zone was extended by 100 meters for 2024 to enhance overtaking. A secondary zone exists between Turns 2 and 3, allowing for immediate 're-passing' opportunities after the long pit-straight."
+    }
+  },
+  
+  "Singapore Grand Prix": {
+    "length_speed": {
+      "tagline": "The Original High-Humidity Night Race",
+      "description": "Singapore is a high-downforce street circuit known for its punishing heat and humidity. It is technically challenging with 19 turns, and although a new straight was added in 2023, it remains one of the slower, more physical races on the calendar."
+    },
+    "corner_types": {
+      "tagline": "19 Turns —Wall-Lined Bumps",
+      "description": "The majority of turns require second or third gear, testing mechanical grip and low-speed acceleration. The circuit is famously bumpy, requiring careful suspension management to avoid unsettling the car near the close concrete barriers."
+    },
+    "evolution_grip": {
+      "tagline": "Partial Resurfacing & Safety Car Certainty",
+      "description": "Sections of the track were resurfaced for 2024 (including Turns 3-9 and 14-17) to provide a smoother surface. Grip evolves as the night-time temperatures fluctuate, and with a 100% safety car record, strategists must be prepared for constant race interruptions."
+    },
+    "drs_zones": {
+      "tagline": "3 Zones — Record-Breaking Fourth Zone",
+      "description": "In a first for Singapore, a fourth DRS zone was added between Turns 14 and 16 for 2024. Combined with the existing three zones, this aims to significantly improve overtaking on a track where passing was historically difficult."
+    }
+  },
+
+"United States Grand Prix": {
+    "length_speed": {
+      "tagline": "The Modern Elevated Masterpiece",
+      "description": "Circuit of The Americas is a high-speed permanent facility that borrows the \"best hits\" of European design. It is a power-sensitive track where aerodynamic efficiency is tested by a mix of long straights and rapid direction changes. The signature uphill run to Turn 1 creates a massive 11% gradient, making the braking point unique as the car is naturally compressed into the tarmac."
+    },
+    "corner_types": {
+      "tagline": "20 Turns —  Stadium Technicality",
+      "description": "Sector 1 features a breathtaking sequence (Turns 3-6) based on Silverstone’s Maggotts-Becketts complex, requiring a car with an extremely sharp front axle and high-speed stability. The middle sector shifts to heavy braking and traction zones, while the \"Stadium Section\" (Turns 12-15) mimics Hockenheim, demanding a car that can rotate quickly in tight, low-speed corners."
+    },
+    "evolution_grip": {
+      "tagline": "The Bumpy Anti-Clockwise Challenge",
+      "description": "The circuit is built on unstable \"swelling\" clay, leading to a famously bumpy surface that requires a compliant suspension setup. It is one of the few anti-clockwise tracks on the calendar, putting unusual physical strain on the right side of the drivers' necks. Grip typically evolves well over the weekend, though \"thermal hazard\" warnings are common in the Texas heat."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Back Straight",
+      "description": "The main pit straight and the massive back straight between Turns 11 and 12. Turn 1 is a primary overtaking spot because its wide entry allows for multiple racing lines, meaning a driver who loses out via DRS can often fight back immediately on the exit."
+    }
+  },
+
+"Mexico City Grand Prix": {
+    "length_speed": {
+      "tagline": "High Altitude",
+      "description": "Sitting 2,285m above sea level, the altitude is the defining characteristic of this race. The air is 20% less dense, meaning cars produce significantly less downforce even with \"Monaco-spec\" wings. Turbos must spin harder to compensate for the thin air, and cooling becomes the primary battle as there are fewer air molecules to carry heat away from the brakes and engine."
+    },
+    "corner_types": {
+      "tagline": "17 Turns — Fiddly S-Sections",
+      "description": "The track features long straights leading into 90-degree corners, but the most iconic section is the Foro Sol baseball stadium. Here, the cars feel \"clumsy\" and slow due to the lack of aerodynamic grip. The \"Esses\" (Turns 7-13) require precision; even a small mistake can unsettle the car as the tires tend to \"slide and glaze\" rather than \"bite\" into the surface."
+    },
+    "evolution_grip": {
+      "tagline": "Low Drag Environment",
+      "description": "Because the circuit is located in a public park and used infrequently, it is very dusty and low-grip at the start. Track temperatures often exceed 50°C, leading to extreme thermal degradation. Tires don't usually wear down; they simply \"cook,\" making tire management and staying in \"clean air\" more important than raw pace."
+    },
+    "drs_zones": {
+      "tagline": "3 Zones — Cooling Issues",
+      "description": "With the run to Turn 1 being one of the longest in F1. Due to the low-drag effect of the altitude, top speeds here are among the highest of the season, making the DRS a critical tool for overcoming the difficulty of following in \"dirty air\"."
+    }
+  },
+
+"Sao Paulo Grand Prix": {
+    "length_speed": {
+      "tagline": "The Hilly Anti-Clockwise Sprint",
+      "description": "Interlagos is a short, intense circuit that follows the natural \"ups and downs\" of the hilly terrain. It is a power-sensitive track due to the \"whopping\" climb up the hill in the final sector. Teams run a medium-to-high downforce setup to manage the technical middle sector while trying to maintain enough top speed to defend on the long pit straight."
+    },
+    "corner_types": {
+      "tagline": "15 Turns —  The Senna S",
+      "description": "The \"Senna S\" (Turns 1-2) is a legendary downhill complex that rewards late braking and bravery. Sector 2 is a relentless series of corners where rhythm is everything; one lock-up can put a driver \"out of sync\" for the rest of the lap. The final corner is the most critical, as exit speed determines performance on the long uphill climb to the finish line."
+    },
+    "evolution_grip": {
+      "tagline": "Unstable Ground & Variable Weather",
+      "description": "Built on unstable soil, the track is notoriously bumpy, requiring a car that can handle vertical shocks without losing aero-seal. Weather is the ultimate wild card in Sao Paulo; sudden tropical rain often resets the track grip and forces teams into \"survival mode,\" favoring drivers with high adaptability."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Uphill Drag",
+      "description": "Run to the finish is a long uphill drag race. The main straight and the \"Reta Oposta\" between Turns 3 and 4. The combination of elevation changes and back-to-back zones makes Interlagos one of the best circuits for wheel-to-wheel racing and \"re-passing\"."
+    }
+  },
+
+
+"Las Vegas Grand Prix": {
+    "length_speed": {
+      "tagline": "The Monza of the West",
+      "description": "Las Vegas is a high-speed street circuit featuring a monster 1.9km straight down the iconic Strip. Speeds here are comparable to Monza, reaching over 350 km/h. Teams run \"ultra-low drag\" wings, which makes the cars feel inherently \"skittish\" and nervous in the few technical corners the track possesses."
+    },
+    "corner_types": {
+      "tagline": "17 Turns — The Sphere",
+      "description": "The layout consists mostly of 90-degree turns and long, flat-out kinks. Turn 7 is the slowest point on the track and narrows significantly on exit, while Turn 12 is the most crucial braking zone, punctuating two massive high-speed stretches. Building and maintaining tire temperature is the primary technical challenge."
+    },
+    "evolution_grip": {
+      "tagline": "The Midnight Cooling Challenge",
+      "description": "As a night race in the desert, track temperatures are among the lowest of the year. The asphalt is smooth street-spec, but the cold air makes it incredibly difficult to get the tires into the correct \"operating window\". Graining is the biggest threat, as the cold surface doesn't provide enough friction to heat the tire core."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Slipstream King",
+      "description": "The DRS zone on the 1.9km straight is the headline feature. Because the cars are already in a low-drag configuration, the \"delta\" with DRS open is slightly smaller than at high-downforce tracks, but the sheer length of the straight ensures that slipstreaming and DRS are essential for overtaking."
+    }
+  },
+
+"Qatar Grand Prix": {
+    "length_speed": {
+      "tagline": "The High-Energy Lateral Test",
+      "description": "Lusail is a relentless, medium-to-high speed circuit with almost no \"rest\" periods for the tires. It is an \"aero-dependent\" track that rewards a car with high high-speed stability. The 1km main straight is the only significant pause in a lap dominated by high-G lateral loads."
+    },
+    "corner_types": {
+      "tagline": "16 Turns —Flowing Sweeps & Punishing Kerbs",
+      "description": "The track is a sequence of fast, flowing corners (Turns 12-14) that put extreme \"structural fatigue\" on the tire sidewalls. For 2025, the FIA added gravel strips at critical exits (Turns 6, 10, 16) to naturally enforce track limits, meaning precision is now rewarded with lap time while errors result in an immediate penalty."
+    },
+    "evolution_grip": {
+      "tagline": "Dusty Start & Mandatory Stops",
+      "description": "Being in the desert, sand encroachment is a constant issue despite artificial grass borders. Due to safety concerns regarding tire fatigue from the aggressive kerbs, the FIA has previously imposed \"mandatory lap limits\" for each tire set, turning the race into a high-intensity \"multi-stop sprint\"."
+    },
+    "drs_zones": {
+      "tagline": "1 Zone — Main Straight ",
+      "description": "With only one primary DRS zone on the start-finish straight, overtaking elsewhere is extremely difficult. A driver must stay within 0.5s through the final high-speed turn (Turn 16) to have any chance of a move into the heavy braking zone of Turn 1."
+    }
+  },
+
+"Abu Dhabi Grand Prix": {
+    "length_speed": {
+      "tagline": "The High-Efficiency Sunset Finale",
+      "description": "Yas Marina is a modern, cutting-edge facility that requires a \"well-rounded\" car. It features two long back-to-back straights (the longest being 1.2km) that reward top speed, contrasted with a technical final sector that demands high traction and mechanical grip."
+    },
+    "corner_types": {
+      "tagline": "16 Turns — Technical Twist",
+      "description": "A major overhaul in 2021 removed fiddly chicanes at Turns 5 and 9, making the track much faster and more flowing. The final sector remains technical, winding through the Yas Hotel area, where the rears are subjected to high thermal degradation as drivers \"hunt\" for traction out of the 90-degree turns."
+    },
+    "evolution_grip": {
+      "tagline": "The Temperature Swing",
+      "description": "The race starts in daylight and ends under floodlights. Track temperatures drop significantly during the transition, shifting the balance of the car. The surface is made of aggregate imported from England and provides medium abrasiveness, typically leading to a \"one-stop\" strategy as graining has become limited on the modern surface."
+    },
+    "drs_zones": {
+      "tagline": "2 Zones — Double Header",
+      "description": "The back-to-back DRS zones dominate the overtaking landscape. The first straight ends in a tight hairpin (Turn 6), while the second straight offers a chance for the overtaken driver to immediately \"re-pass\" before the technical final sector begins."
+    }
+  }
+}

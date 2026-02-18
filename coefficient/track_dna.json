@@ -1,0 +1,873 @@
+{
+  "_metadata": {
+    "description": "F1 Track DNA - Circuit-specific parameters for prediction model",
+    "version": "1.0",
+    "last_updated": "2025-01-17",
+    "note": "Values based on FIA data, circuit profiles, and F1 engineering estimates"
+  },
+
+  "Bahrain Grand Prix": {
+    "circuit_name": "Bahrain International Circuit",
+    "overtake_factor": 0.45,
+    "elevation_gradient": 0.003,
+    "penalty_per_kg": 0.034,
+    "surface_grip": 0.92,
+    "corner_to_straight_ratio": 0.55,
+    "drs_zones": 3,
+    "avg_speed_kph": 205,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.1,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 315,
+      "drag_coefficient_drs": 0.85,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 310,
+      "drag_coefficient_drs": 0.82,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 290,
+      "drag_coefficient_x_mode": 0.75,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.15
+    }
+  },
+
+  "Saudi Arabian Grand Prix": {
+    "circuit_name": "Jeddah Corniche Circuit",
+    "overtake_factor": 0.40,
+    "elevation_gradient": 0.008,
+    "penalty_per_kg": 0.031,
+    "surface_grip": 0.95,
+    "corner_to_straight_ratio": 0.45,
+    "drs_zones": 3,
+    "avg_speed_kph": 252,
+    "fuel_sensitivity": "low",
+    "tire_wear_rate": 0.85,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 320,
+      "drag_coefficient_drs": 0.83,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 315,
+      "drag_coefficient_drs": 0.80,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 295,
+      "drag_coefficient_x_mode": 0.73,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.12
+    }
+  },
+
+  "Australian Grand Prix": {
+    "circuit_name": "Albert Park Circuit",
+    "overtake_factor": 0.55,
+    "elevation_gradient": 0.005,
+    "penalty_per_kg": 0.036,
+    "surface_grip": 0.88,
+    "corner_to_straight_ratio": 0.60,
+    "drs_zones": 2,
+    "avg_speed_kph": 235,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 0.95,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 315,
+      "drag_coefficient_drs": 0.85,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 310,
+      "drag_coefficient_drs": 0.82,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 290,
+      "drag_coefficient_x_mode": 0.75,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.15
+    }
+  },
+
+  "Japanese Grand Prix": {
+    "circuit_name": "Suzuka International Racing Course",
+    "overtake_factor": 0.60,
+    "elevation_gradient": 0.018,
+    "penalty_per_kg": 0.037,
+    "surface_grip": 0.96,
+    "corner_to_straight_ratio": 0.70,
+    "drs_zones": 1,
+    "avg_speed_kph": 230,
+    "fuel_sensitivity": "high",
+    "tire_wear_rate": 1.15,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 312,
+      "drag_coefficient_drs": 0.86,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 308,
+      "drag_coefficient_drs": 0.83,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 288,
+      "drag_coefficient_x_mode": 0.76,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.2,
+      "deployment_error_multiplier": 0.18
+    }
+  },
+
+  "Chinese Grand Prix": {
+    "circuit_name": "Shanghai International Circuit",
+    "overtake_factor": 0.50,
+    "elevation_gradient": 0.004,
+    "penalty_per_kg": 0.035,
+    "surface_grip": 0.90,
+    "corner_to_straight_ratio": 0.58,
+    "drs_zones": 2,
+    "avg_speed_kph": 210,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.0,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 315,
+      "drag_coefficient_drs": 0.85,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 310,
+      "drag_coefficient_drs": 0.82,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 290,
+      "drag_coefficient_x_mode": 0.75,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.15
+    }
+  },
+
+  "Miami Grand Prix": {
+    "circuit_name": "Miami International Autodrome",
+    "overtake_factor": 0.52,
+    "elevation_gradient": 0.002,
+    "penalty_per_kg": 0.035,
+    "surface_grip": 0.93,
+    "corner_to_straight_ratio": 0.62,
+    "drs_zones": 3,
+    "avg_speed_kph": 223,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.05,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 316,
+      "drag_coefficient_drs": 0.84,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 311,
+      "drag_coefficient_drs": 0.81,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 291,
+      "drag_coefficient_x_mode": 0.74,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.14
+    }
+  },
+
+  "Emilia Romagna Grand Prix": {
+    "circuit_name": "Imola - Autodromo Enzo e Dino Ferrari",
+    "overtake_factor": 0.70,
+    "elevation_gradient": 0.025,
+    "penalty_per_kg": 0.038,
+    "surface_grip": 0.94,
+    "corner_to_straight_ratio": 0.75,
+    "drs_zones": 2,
+    "avg_speed_kph": 215,
+    "fuel_sensitivity": "high",
+    "tire_wear_rate": 1.2,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 310,
+      "drag_coefficient_drs": 0.87,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 305,
+      "drag_coefficient_drs": 0.84,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 285,
+      "drag_coefficient_x_mode": 0.77,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.3,
+      "deployment_error_multiplier": 0.20
+    }
+  },
+
+  "Monaco Grand Prix": {
+    "circuit_name": "Circuit de Monaco",
+    "overtake_factor": 0.95,
+    "elevation_gradient": 0.042,
+    "penalty_per_kg": 0.040,
+    "surface_grip": 0.98,
+    "corner_to_straight_ratio": 0.85,
+    "drs_zones": 1,
+    "avg_speed_kph": 165,
+    "fuel_sensitivity": "very_high",
+    "tire_wear_rate": 0.75,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 280,
+      "drag_coefficient_drs": 0.90,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 275,
+      "drag_coefficient_drs": 0.88,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.18,
+      "clipping_threshold": 260,
+      "drag_coefficient_x_mode": 0.82,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.15,
+      "boost_threshold": 85,
+      "deployment_error_threshold": 2.5,
+      "deployment_error_multiplier": 0.25
+    }
+  },
+
+  "Canadian Grand Prix": {
+    "circuit_name": "Circuit Gilles Villeneuve",
+    "overtake_factor": 0.42,
+    "elevation_gradient": 0.006,
+    "penalty_per_kg": 0.033,
+    "surface_grip": 0.89,
+    "corner_to_straight_ratio": 0.50,
+    "drs_zones": 2,
+    "avg_speed_kph": 220,
+    "fuel_sensitivity": "low",
+    "tire_wear_rate": 1.0,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 318,
+      "drag_coefficient_drs": 0.83,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 313,
+      "drag_coefficient_drs": 0.80,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 293,
+      "drag_coefficient_x_mode": 0.73,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 1.8,
+      "deployment_error_multiplier": 0.12
+    }
+  },
+
+  "Spanish Grand Prix": {
+    "circuit_name": "Circuit de Barcelona-Catalunya",
+    "overtake_factor": 0.58,
+    "elevation_gradient": 0.038,
+    "penalty_per_kg": 0.036,
+    "surface_grip": 0.95,
+    "corner_to_straight_ratio": 0.68,
+    "drs_zones": 2,
+    "avg_speed_kph": 203,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.1,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 313,
+      "drag_coefficient_drs": 0.86,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 308,
+      "drag_coefficient_drs": 0.83,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 288,
+      "drag_coefficient_x_mode": 0.76,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.1,
+      "deployment_error_multiplier": 0.16
+    }
+  },
+
+  "Austrian Grand Prix": {
+    "circuit_name": "Red Bull Ring",
+    "overtake_factor": 0.35,
+    "elevation_gradient": 0.065,
+    "penalty_per_kg": 0.032,
+    "surface_grip": 0.93,
+    "corner_to_straight_ratio": 0.40,
+    "drs_zones": 3,
+    "avg_speed_kph": 238,
+    "fuel_sensitivity": "low",
+    "tire_wear_rate": 0.90,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 320,
+      "drag_coefficient_drs": 0.82,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 315,
+      "drag_coefficient_drs": 0.79,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 295,
+      "drag_coefficient_x_mode": 0.72,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 1.8,
+      "deployment_error_multiplier": 0.10
+    }
+  },
+
+  "British Grand Prix": {
+    "circuit_name": "Silverstone Circuit",
+    "overtake_factor": 0.48,
+    "elevation_gradient": 0.022,
+    "penalty_per_kg": 0.033,
+    "surface_grip": 0.96,
+    "corner_to_straight_ratio": 0.55,
+    "drs_zones": 2,
+    "avg_speed_kph": 240,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.05,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 318,
+      "drag_coefficient_drs": 0.84,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 313,
+      "drag_coefficient_drs": 0.81,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 293,
+      "drag_coefficient_x_mode": 0.74,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.14
+    }
+  },
+
+  "Hungarian Grand Prix": {
+    "circuit_name": "Hungaroring",
+    "overtake_factor": 0.78,
+    "elevation_gradient": 0.035,
+    "penalty_per_kg": 0.039,
+    "surface_grip": 0.91,
+    "corner_to_straight_ratio": 0.80,
+    "drs_zones": 1,
+    "avg_speed_kph": 195,
+    "fuel_sensitivity": "high",
+    "tire_wear_rate": 1.15,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 308,
+      "drag_coefficient_drs": 0.88,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 303,
+      "drag_coefficient_drs": 0.85,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 283,
+      "drag_coefficient_x_mode": 0.78,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.18,
+      "boost_threshold": 88,
+      "deployment_error_threshold": 2.3,
+      "deployment_error_multiplier": 0.19
+    }
+  },
+
+  "Belgian Grand Prix": {
+    "circuit_name": "Circuit de Spa-Francorchamps",
+    "overtake_factor": 0.38,
+    "elevation_gradient": 0.105,
+    "penalty_per_kg": 0.032,
+    "surface_grip": 0.94,
+    "corner_to_straight_ratio": 0.48,
+    "drs_zones": 2,
+    "avg_speed_kph": 244,
+    "fuel_sensitivity": "low",
+    "tire_wear_rate": 0.95,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 322,
+      "drag_coefficient_drs": 0.81,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 317,
+      "drag_coefficient_drs": 0.78,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 297,
+      "drag_coefficient_x_mode": 0.71,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 1.7,
+      "deployment_error_multiplier": 0.10
+    }
+  },
+
+  "Dutch Grand Prix": {
+    "circuit_name": "Circuit Zandvoort",
+    "overtake_factor": 0.82,
+    "elevation_gradient": 0.018,
+    "penalty_per_kg": 0.037,
+    "surface_grip": 0.93,
+    "corner_to_straight_ratio": 0.72,
+    "drs_zones": 2,
+    "avg_speed_kph": 215,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.1,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 312,
+      "drag_coefficient_drs": 0.86,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 307,
+      "drag_coefficient_drs": 0.83,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 287,
+      "drag_coefficient_x_mode": 0.76,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.18,
+      "boost_threshold": 88,
+      "deployment_error_threshold": 2.2,
+      "deployment_error_multiplier": 0.17
+    }
+  },
+
+  "Italian Grand Prix": {
+    "circuit_name": "Autodromo Nazionale di Monza",
+    "overtake_factor": 0.28,
+    "elevation_gradient": 0.008,
+    "penalty_per_kg": 0.030,
+    "surface_grip": 0.96,
+    "corner_to_straight_ratio": 0.35,
+    "drs_zones": 2,
+    "avg_speed_kph": 264,
+    "fuel_sensitivity": "very_low",
+    "tire_wear_rate": 0.80,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 325,
+      "drag_coefficient_drs": 0.80,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 320,
+      "drag_coefficient_drs": 0.77,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 300,
+      "drag_coefficient_x_mode": 0.70,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.22,
+      "boost_threshold": 92,
+      "deployment_error_threshold": 1.5,
+      "deployment_error_multiplier": 0.08
+    }
+  },
+
+  "Azerbaijan Grand Prix": {
+    "circuit_name": "Baku City Circuit",
+    "overtake_factor": 0.62,
+    "elevation_gradient": 0.012,
+    "penalty_per_kg": 0.033,
+    "surface_grip": 0.90,
+    "corner_to_straight_ratio": 0.58,
+    "drs_zones": 2,
+    "avg_speed_kph": 228,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.0,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 319,
+      "drag_coefficient_drs": 0.83,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 314,
+      "drag_coefficient_drs": 0.80,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 294,
+      "drag_coefficient_x_mode": 0.73,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.13
+    }
+  },
+
+  "Singapore Grand Prix": {
+    "circuit_name": "Marina Bay Street Circuit",
+    "overtake_factor": 0.85,
+    "elevation_gradient": 0.004,
+    "penalty_per_kg": 0.038,
+    "surface_grip": 0.87,
+    "corner_to_straight_ratio": 0.82,
+    "drs_zones": 3,
+    "avg_speed_kph": 190,
+    "fuel_sensitivity": "very_high",
+    "tire_wear_rate": 1.25,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 305,
+      "drag_coefficient_drs": 0.89,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 300,
+      "drag_coefficient_drs": 0.86,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 280,
+      "drag_coefficient_x_mode": 0.79,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.18,
+      "boost_threshold": 88,
+      "deployment_error_threshold": 2.4,
+      "deployment_error_multiplier": 0.22
+    }
+  },
+
+  "United States Grand Prix": {
+    "circuit_name": "Circuit of the Americas",
+    "overtake_factor": 0.53,
+    "elevation_gradient": 0.041,
+    "penalty_per_kg": 0.035,
+    "surface_grip": 0.91,
+    "corner_to_straight_ratio": 0.63,
+    "drs_zones": 2,
+    "avg_speed_kph": 218,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.08,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 314,
+      "drag_coefficient_drs": 0.85,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 309,
+      "drag_coefficient_drs": 0.82,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 289,
+      "drag_coefficient_x_mode": 0.75,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.1,
+      "deployment_error_multiplier": 0.15
+    }
+  },
+
+  "Mexican Grand Prix": {
+    "circuit_name": "Autódromo Hermanos Rodríguez",
+    "overtake_factor": 0.47,
+    "elevation_gradient": 0.008,
+    "penalty_per_kg": 0.029,
+    "surface_grip": 0.89,
+    "corner_to_straight_ratio": 0.60,
+    "drs_zones": 1,
+    "avg_speed_kph": 217,
+    "fuel_sensitivity": "very_low",
+    "tire_wear_rate": 0.95,
+    "note": "High altitude (2,285m) affects drag and downforce significantly",
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 322,
+      "drag_coefficient_drs": 0.78,
+      "drag_coefficient_normal": 0.95
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 317,
+      "drag_coefficient_drs": 0.75,
+      "drag_coefficient_normal": 0.93
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 297,
+      "drag_coefficient_x_mode": 0.68,
+      "drag_coefficient_z_mode": 0.95,
+      "override_boost": 1.22,
+      "boost_threshold": 92,
+      "deployment_error_threshold": 1.6,
+      "deployment_error_multiplier": 0.10
+    }
+  },
+
+  "São Paulo Grand Prix": {
+    "circuit_name": "Autódromo José Carlos Pace (Interlagos)",
+    "overtake_factor": 0.44,
+    "elevation_gradient": 0.045,
+    "penalty_per_kg": 0.034,
+    "surface_grip": 0.92,
+    "corner_to_straight_ratio": 0.58,
+    "drs_zones": 2,
+    "avg_speed_kph": 213,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.05,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 316,
+      "drag_coefficient_drs": 0.84,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 311,
+      "drag_coefficient_drs": 0.81,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 291,
+      "drag_coefficient_x_mode": 0.74,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.14
+    }
+  },
+
+  "Las Vegas Grand Prix": {
+    "circuit_name": "Las Vegas Strip Street Circuit",
+    "overtake_factor": 0.32,
+    "elevation_gradient": 0.003,
+    "penalty_per_kg": 0.031,
+    "surface_grip": 0.91,
+    "corner_to_straight_ratio": 0.42,
+    "drs_zones": 2,
+    "avg_speed_kph": 248,
+    "fuel_sensitivity": "low",
+    "tire_wear_rate": 0.88,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 321,
+      "drag_coefficient_drs": 0.82,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 316,
+      "drag_coefficient_drs": 0.79,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 296,
+      "drag_coefficient_x_mode": 0.72,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.22,
+      "boost_threshold": 92,
+      "deployment_error_threshold": 1.6,
+      "deployment_error_multiplier": 0.09
+    }
+  },
+
+  "Qatar Grand Prix": {
+    "circuit_name": "Lusail International Circuit",
+    "overtake_factor": 0.46,
+    "elevation_gradient": 0.005,
+    "penalty_per_kg": 0.034,
+    "surface_grip": 0.94,
+    "corner_to_straight_ratio": 0.56,
+    "drs_zones": 2,
+    "avg_speed_kph": 235,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.12,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 317,
+      "drag_coefficient_drs": 0.84,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 312,
+      "drag_coefficient_drs": 0.81,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 292,
+      "drag_coefficient_x_mode": 0.74,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 1.9,
+      "deployment_error_multiplier": 0.13
+    }
+  },
+
+  "Abu Dhabi Grand Prix": {
+    "circuit_name": "Yas Marina Circuit",
+    "overtake_factor": 0.51,
+    "elevation_gradient": 0.006,
+    "penalty_per_kg": 0.034,
+    "surface_grip": 0.92,
+    "corner_to_straight_ratio": 0.61,
+    "drs_zones": 2,
+    "avg_speed_kph": 195,
+    "fuel_sensitivity": "medium",
+    "tire_wear_rate": 1.0,
+    
+    "2024": {
+      "chassis_score": 1.00,
+      "clipping_threshold": 315,
+      "drag_coefficient_drs": 0.85,
+      "drag_coefficient_normal": 1.0
+    },
+    "2025": {
+      "chassis_score": 1.05,
+      "clipping_threshold": 310,
+      "drag_coefficient_drs": 0.82,
+      "drag_coefficient_normal": 0.98
+    },
+    "2026": {
+      "chassis_score": 1.15,
+      "clipping_threshold": 290,
+      "drag_coefficient_x_mode": 0.75,
+      "drag_coefficient_z_mode": 1.0,
+      "override_boost": 1.2,
+      "boost_threshold": 90,
+      "deployment_error_threshold": 2.0,
+      "deployment_error_multiplier": 0.15
+    }
+  }
+}

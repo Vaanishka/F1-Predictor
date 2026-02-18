@@ -1,0 +1,232 @@
+{
+  "_metadata": {
+    "description": "F1 Global Coefficients - Year-specific parameters for feature engineering",
+    "version": "1.0",
+    "last_updated": "2025-01-17",
+    "sources": [
+      "FIA Technical Regulations 2024/2026",
+      "F1 Technical Analysis Reports",
+      "Team Engineering Estimates"
+    ],
+    "note": "Values can be tuned based on model performance"
+  },
+
+  "2024": {
+    "_regulation_era": "Current generation (2022-2025)",
+    "_car_weight": "798 kg (including driver)",
+    "_power_output": "~1000 HP (ICE + MGU-K)",
+    
+    "weight_penalty_per_kg": 0.035,
+    "weight_penalty_description": "Lap time penalty in seconds per kg of weight (fuel/ballast)",
+    
+    "tire_degradation_base_rate": 0.05,
+    "tire_degradation_description": "Base degradation rate per lap (multiplied by track-specific rate)",
+    
+    "fuel_speed_penalty_coefficient": 0.30,
+    "fuel_speed_penalty_description": "kph loss per kg of fuel above baseline (10kg)",
+    
+    "drs_speed_advantage_kph": 10,
+    "drs_zones_effectiveness": 0.85,
+    
+    "ers_deployment_max_kj": 120,
+    "ers_recovery_max_kj": 120,
+    "ers_description": "ERS limited to 4MJ deployment per lap (120kJ/s for 33.33s)",
+    
+    "power_unit_efficiency": 1.00,
+    "power_unit_description": "Baseline power unit performance (2024 = 1.00)",
+    
+    "aero_efficiency": 1.00,
+    "aero_description": "Baseline aerodynamic efficiency (downforce vs drag ratio)",
+    
+    "mechanical_grip_coefficient": 1.00,
+    "mechanical_grip_description": "Suspension and chassis mechanical grip baseline",
+    
+    "consistency_weight": 0.15,
+    "consistency_description": "How much driver consistency affects lap time variance",
+    
+    "track_evolution_rate": 0.002,
+    "track_evolution_description": "Lap time improvement per session as track rubbers in",
+    
+    "pit_stop_time_loss_seconds": 22.0,
+    "pit_stop_description": "Average time loss including pit lane speed limit and stop"
+  },
+
+  "2025": {
+    "_regulation_era": "Transitional year (minor updates to 2024 spec)",
+    "_car_weight": "798 kg (no change)",
+    "_power_output": "~1020 HP (2% improvement from development)",
+    
+    "weight_penalty_per_kg": 0.034,
+    "weight_penalty_description": "Slight improvement due to aero efficiency gains",
+    
+    "tire_degradation_base_rate": 0.048,
+    "tire_degradation_description": "Improved tire compounds reduce degradation ~4%",
+    
+    "fuel_speed_penalty_coefficient": 0.28,
+    "fuel_speed_penalty_description": "Better fuel efficiency reduces speed penalty",
+    
+    "drs_speed_advantage_kph": 12,
+    "drs_zones_effectiveness": 0.88,
+    "drs_description": "Improved DRS efficiency from aero development",
+    
+    "ers_deployment_max_kj": 125,
+    "ers_recovery_max_kj": 125,
+    "ers_description": "Slight ERS improvements within current regulations",
+    
+    "power_unit_efficiency": 1.02,
+    "power_unit_description": "2% power unit improvement through development",
+    
+    "aero_efficiency": 1.03,
+    "aero_description": "3% aero efficiency gain from 2024 development",
+    
+    "mechanical_grip_coefficient": 1.01,
+    "mechanical_grip_description": "Minor suspension and setup improvements",
+    
+    "consistency_weight": 0.14,
+    "consistency_description": "Teams better understand current regs = more consistent",
+    
+    "track_evolution_rate": 0.0022,
+    "track_evolution_description": "Marginal improvement in track evolution modeling",
+    
+    "pit_stop_time_loss_seconds": 21.5,
+    "pit_stop_description": "Teams optimize pit stop procedures"
+  },
+
+  "2026": {
+    "_regulation_era": "NEW GENERATION - Major technical overhaul",
+    "_car_weight": "768 kg (30kg lighter!)",
+    "_power_output": "~1000 HP (50/50 ICE/Electric split)",
+    "_key_changes": [
+      "30kg weight reduction",
+      "50% electric / 50% ICE power split",
+      "Active aerodynamics (X-mode/Z-mode) replaces DRS",
+      "MGU-H removed, MGU-K power tripled",
+      "Smaller, nimbler cars",
+      "Sustainable fuels mandatory"
+    ],
+    
+    "weight_penalty_per_kg": 0.025,
+    "weight_penalty_description": "Lighter cars = less sensitive to weight (30kg reduction helps)",
+    
+    "tire_degradation_base_rate": 0.045,
+    "tire_degradation_description": "Lighter cars = less tire stress = better degradation",
+    
+    "fuel_speed_penalty_coefficient": 0.25,
+    "fuel_speed_penalty_description": "Sustainable fuels + better efficiency",
+    
+    "drs_speed_advantage_kph": 0,
+    "active_aero_advantage_kph": 15,
+    "active_aero_description": "X-mode (low drag) vs Z-mode (high downforce) replaces DRS",
+    "active_aero_effectiveness": 0.92,
+    
+    "ers_deployment_max_kj": 350,
+    "ers_recovery_max_kj": 350,
+    "ers_description": "MASSIVE CHANGE: MGU-K power tripled! 350kJ vs 120kJ (no MGU-H)",
+    
+    "override_boost_multiplier": 1.20,
+    "override_boost_description": "Drivers can temporarily exceed power limits (similar to push-to-pass)",
+    "override_boost_duration_seconds": 5.0,
+    "override_boost_uses_per_lap": 2,
+    
+    "power_clipping_threshold_reduction": 25,
+    "power_clipping_description": "Electric dependency = more clipping at high speeds (290 vs 315 kph)",
+    "power_clipping_penalty_kph": 8,
+    
+    "power_unit_efficiency": 1.15,
+    "power_unit_description": "15% overall efficiency improvement (electric + sustainable fuel)",
+    
+    "aero_efficiency": 1.20,
+    "aero_description": "Major aero redesign = 20% better L/D ratio",
+    
+    "mechanical_grip_coefficient": 1.10,
+    "mechanical_grip_description": "Lighter, smaller cars = better mechanical grip",
+    
+    "consistency_weight": 0.18,
+    "consistency_description": "New regs = higher variance initially, consistency more valuable",
+    
+    "deployment_error_threshold_g": 2.0,
+    "deployment_error_multiplier": 0.15,
+    "deployment_error_description": "Wrong aero mode (X when need Z) costs time in corners",
+    
+    "track_evolution_rate": 0.0025,
+    "track_evolution_description": "Different tire compounds affect track evolution",
+    
+    "pit_stop_time_loss_seconds": 21.0,
+    "pit_stop_description": "Lighter cars = faster pit lane speeds (80kph limit unchanged)",
+    
+    "adaptability_period_races": 5,
+    "adaptability_description": "First 5 races have higher variance as teams learn new regs"
+  },
+
+  "feature_engineering_constants": {
+    "description": "Constants used in feature calculations (year-independent)",
+    
+    "tire_compound_grip_multipliers": {
+      "SOFT": 1.03,
+      "MEDIUM": 1.00,
+      "HARD": 0.97,
+      "INTERMEDIATE": 0.90,
+      "WET": 0.85
+    },
+    
+    "tire_age_degradation_factor": 0.0005,
+    "tire_age_degradation_cap": 0.08,
+    "tire_age_description": "Lose 0.05% per lap, capped at 8% total degradation",
+    
+    "fuel_baseline_kg": 10.0,
+    "fuel_baseline_description": "Baseline fuel load for qualifying (minimal fuel)",
+    
+    "fuel_race_start_kg": 110.0,
+    "fuel_consumption_per_lap_kg": 1.6,
+    "fuel_description": "Start with 110kg, burn 1.6kg/lap average",
+    
+    "speed_to_ms_conversion": 3.6,
+    "speed_description": "Convert kph to m/s by dividing by 3.6",
+    
+    "g_force_lateral_threshold": 2.0,
+    "g_force_description": "Above 2G lateral = cornering (for deployment error detection)",
+    
+    "throttle_full_threshold_percent": 95.0,
+    "throttle_description": "Above 95% throttle = full throttle (for clipping detection)",
+    
+    "consistency_cv_multiplier": 5.0,
+    "consistency_description": "Multiply lap time CV% by 5 for sandbagging score",
+    
+    "position_ranking_method": "continuous",
+    "position_ranking_description": "Predict continuous values then rank (vs classify directly)"
+  },
+
+  "model_hyperparameters_suggestions": {
+    "description": "Recommended XGBoost hyperparameters (can be tuned)",
+    
+    "n_estimators": 200,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 3,
+    "gamma": 0.1,
+    
+    "early_stopping_rounds": 20,
+    "eval_metric": "mae",
+    
+    "note": "These are starting points - use GridSearchCV or Optuna to optimize"
+  },
+
+  "target_performance_metrics": {
+    "description": "What constitutes good model performance",
+    
+    "mae_excellent": 2.0,
+    "mae_good": 3.0,
+    "mae_acceptable": 4.0,
+    "mae_description": "Mean Absolute Error in positions",
+    
+    "r2_excellent": 0.75,
+    "r2_good": 0.65,
+    "r2_acceptable": 0.50,
+    "r2_description": "R-squared (explained variance)",
+    
+    "top_3_accuracy_target": 0.70,
+    "top_3_description": "70% of top 3 predictions should be correct drivers (order may vary)"
+  }
+}

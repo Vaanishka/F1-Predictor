@@ -1,0 +1,249 @@
+{
+  "Bahrain Grand Prix": {
+    "VER": 4,
+    "HAM": 3,
+    "PER": 2,
+    "SAI": 2,
+    "ALO": 1,
+    "LEC": 1,
+    "BOT": 1,
+    "ALB": 1
+  },
+  "Saudi Arabian Grand Prix": {
+    "VER": 4,
+    "LEC": 3,
+    "PER": 2,
+    "BOT": 2,
+    "ALO": 1,
+    "SAI": 1,
+    "HAM": 1,
+    "NOR": 1
+  },
+  "Australian Grand Prix": {
+    "LEC": 3,
+    "NOR": 3,
+    "VER": 2,
+    "BOT": 2,
+    "SAI": 1,
+    "HAM": 1,
+    "ALO": 1,
+    "PER": 1,
+    "RUS": 1
+  },
+  "Japanese Grand Prix": {
+    "VER": 5,
+    "PER": 2,
+    "HAM": 2,
+    "BOT": 2,
+    "SAI": 1,
+    "NOR": 1,
+    "PIA": 1,
+    "LEC": 1
+  },
+  "Chinese Grand Prix": {
+    "VER": 5,
+    "NOR": 2,
+    "PER": 2,
+    "HAM": 2,
+    "BOT": 2,
+    "PIA": 1,
+    "LEC": 1
+  },
+  "Miami Grand Prix": {
+    "VER": 3,
+    "NOR": 2,
+    "LEC": 2,
+    "SAI": 2,
+    "PER": 1,
+    "ALO": 1,
+    "RIC": 1,
+    "BOT": 1,
+    "GAS": 1,
+    "STR": 1
+  },
+  "Emilia Romagna Grand Prix": {
+    "VER": 4,
+    "NOR": 3,
+    "LEC": 2,
+    "PER": 2,
+    "HAM": 2,
+    "BOT": 1,
+    "RIC": 1
+  },
+  "Monaco Grand Prix": {
+    "SAI": 4,
+    "VER": 3,
+    "LEC": 1,
+    "PIA": 1,
+    "ALO": 1,
+    "OCO": 1,
+    "PER": 1,
+    "NOR": 1,
+    "GAS": 1,
+    "STR": 1
+  },
+  "Canadian Grand Prix": {
+    "VER": 4,
+    "HAM": 4,
+    "SAI": 2,
+    "NOR": 1,
+    "RUS": 1,
+    "ALO": 1,
+    "OCO": 1,
+    "BOT": 1
+  },
+  "Spanish Grand Prix": {
+    "VER": 5,
+    "HAM": 4,
+    "RUS": 2,
+    "BOT": 2,
+    "NOR": 1,
+    "PER": 1
+  },
+  "Austrian Grand Prix": {
+    "VER": 3,
+    "LEC": 3,
+    "BOT": 2,
+    "NOR": 2,
+    "RUS": 1,
+    "PIA": 1,
+    "SAI": 1,
+    "PER": 1,
+    "HAM": 1
+  },
+  "British Grand Prix": {
+    "HAM": 5,
+    "VER": 3,
+    "NOR": 2,
+    "LEC": 2,
+    "SAI": 1,
+    "PER": 1,
+    "BOT": 1
+  },
+  "Hungarian Grand Prix": {
+    "HAM": 4,
+    "VER": 3,
+    "NOR": 2,
+    "PIA": 1,
+    "PER": 1,
+    "RUS": 1,
+    "OCO": 1,
+    "SAI": 1,
+    "BOT": 1
+  },
+  "Belgian Grand Prix": {
+    "VER": 4,
+    "HAM": 3,
+    "LEC": 2,
+    "PER": 2,
+    "PIA": 1,
+    "SAI": 1,
+    "RUS": 1,
+    "BOT": 1
+  },
+  "Dutch Grand Prix": {
+    "VER": 5,
+    "LEC": 2,
+    "HAM": 2,
+    "BOT": 2,
+    "NOR": 1,
+    "ALO": 1,
+    "GAS": 1,
+    "RUS": 1
+  },
+  "Italian Grand Prix": {
+    "LEC": 2,
+    "NOR": 2,
+    "VER": 2,
+    "SAI": 2,
+    "PIA": 1,
+    "PER": 1,
+    "RUS": 1,
+    "RIC": 1,
+    "BOT": 1,
+    "GAS": 1,
+    "STR": 1
+  },
+  "Azerbaijan Grand Prix": {
+    "LEC": 3,
+    "PER": 3,
+    "RUS": 2,
+    "VER": 2,
+    "PIA": 1,
+    "VET": 1,
+    "GAS": 1,
+    "BOT": 1,
+    "NOR": 1
+  },
+  "Singapore Grand Prix": {
+    "SAI": 3,
+    "HAM": 3,
+    "NOR": 2,
+    "VER": 2,
+    "PIA": 1,
+    "PER": 1,
+    "LEC": 1,
+    "OCO": 1,
+    "BOT": 1
+  },
+  "United States Grand Prix": {
+    "VER": 5,
+    "HAM": 3,
+    "LEC": 2,
+    "SAI": 2,
+    "NOR": 1,
+    "PER": 1,
+    "BOT": 1
+  },
+  "Mexican Grand Prix": {
+    "VER": 4,
+    "HAM": 4,
+    "LEC": 2,
+    "PER": 2,
+    "SAI": 1,
+    "NOR": 1,
+    "BOT": 1
+  },
+  "S\u00c3\u00a3o Paulo Grand Prix": {
+    "VER": 3,
+    "HAM": 3,
+    "OCO": 1,
+    "GAS": 1,
+    "NOR": 1,
+    "ALO": 1,
+    "RUS": 1,
+    "SAI": 1,
+    "BOT": 1,
+    "PER": 1,
+    "VET": 1
+  },
+  "Las Vegas Grand Prix": {
+    "HAM": 3,
+    "PER": 3,
+    "SAI": 2,
+    "VER": 2,
+    "LEC": 2,
+    "RUS": 1,
+    "BOT": 1,
+    "NOR": 1
+  },
+  "Qatar Grand Prix": {
+    "VER": 4,
+    "LEC": 3,
+    "PIA": 2,
+    "NOR": 2,
+    "HAM": 2,
+    "ALO": 1,
+    "BOT": 1
+  },
+  "Abu Dhabi Grand Prix": {
+    "VER": 4,
+    "LEC": 3,
+    "SAI": 2,
+    "HAM": 2,
+    "NOR": 1,
+    "RUS": 1,
+    "PER": 1,
+    "BOT": 1
+  }
+}

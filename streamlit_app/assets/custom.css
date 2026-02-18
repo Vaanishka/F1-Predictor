@@ -1,0 +1,515 @@
+/* 
+F1 Predictor - Custom Styling
+Midnight Carbon Theme with Glassmorphism
+Hides default Streamlit UI for premium look
+*/
+
+/* ============================================================================
+   GLOBAL VARIABLES
+   ============================================================================ */
+
+   
+:root {
+    :root {
+    --f1-red: rgba(225, 6, 0, 0.5);
+    --glass-bg: rgba(255, 255, 255, 0.03); /* Subtle white transparency */
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --inner-glass: rgba(255, 255, 255, 0.05);
+
+    
+    --f1-white: #FFFFFF;
+    --f1-black: #15151E;
+    
+    /* Accents */
+    --accent-gold: #FFD700;
+    --accent-silver: #C0C0C0;
+    --accent-bronze: #CD7F32;
+    --accent-green: #00D756;
+    
+    /* Glass Effect */
+    --glass-bg: rgba(26, 26, 26, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.5);
+    --glow-red: 0 0 20px rgba(225, 6, 0, 0.5);
+}
+}
+
+
+/* ============================================================================
+   HIDE STREAMLIT BRANDING
+   ============================================================================ */
+
+#MainMenu, footer, header {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Hide "Deploy" button */
+.stDeployButton {display: none;}
+
+/* Hide hamburger menu */
+button[kind="header"] {display: none;}
+
+
+/* ============================================================================
+   MAIN APP BACKGROUND
+   ============================================================================ */
+.stApp {
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+}
+
+/* Main content area */
+.main .block-container {
+    padding: 2rem 3rem;
+    max-width: 1400px;
+}
+
+
+/* ============================================================================
+   SIDEBAR STYLING
+   ============================================================================ */
+
+   /* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #0f0f0f !important;
+    border-right: 1px solid var(--border-color);
+}
+
+.sidebar-header {
+    color: var(--f1-red);
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Sidebar widgets */
+section[data-testid="stSidebar"] .stSelectbox,
+section[data-testid="stSidebar"] .stRadio {
+    margin-bottom: 1.5rem;
+}
+
+
+/* ============================================================================
+   GLASS CARDS
+   ============================================================================ */
+
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 24px;
+    box-shadow: var(--shadow-md);
+    animation: slideIn 0.5s ease-out;
+}
+
+.glass-card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: var(--shadow-lg);
+    transition: all 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/* ============================================================================
+   BUTTONS
+   ============================================================================ */
+
+.stButton > button {
+    background: linear-gradient(135deg, var(--f1-red) 0%, #B00500 100%);
+    color: var(--f1-white);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 32px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #FF0800 0%, var(--f1-red) 100%);
+    box-shadow: var(--glow-red);
+    transform: translateY(-2px);
+}
+
+.stButton > button:active {
+    transform: translateY(0);
+}
+
+
+/* ============================================================================
+   TRACK TAGS / PILLS
+   ============================================================================ */
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+.track-tag {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.track-tag:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px currentColor;
+}
+
+
+/* ============================================================================
+   METHODOLOGY CARD
+   ============================================================================ */
+/* Prediction Methodology Outer Container */
+.main-container {
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+/* Methodology Cards */
+/* Inner Methodology Cards */
+.method-card {
+    background: var(--inner-glass) !important;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.method-card:hover {
+    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Bottom Stats Row (The 4-column layout) */
+/* Bottom Stat Boxes (Glass variant) */
+.stat-box {
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #ffffff;
+    display: block;
+}
+
+.stat-label {
+    font-size: 0.65rem;
+    color: #949494;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+
+/* ============================================================================
+   ADVANTAGE CARDS (Team Edge)
+   ============================================================================ */
+
+.advantage-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    margin: 12px 0;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.advantage-card:hover {
+    border-color: var(--f1-red);
+    box-shadow: var(--glow-red);
+    transform: translateX(8px);
+}
+
+.advantage-card h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.advantage-card p {
+    margin: 4px 0 0 0;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* ============================================================================
+   PODIUM VISUAL
+   ============================================================================ */
+
+.podium-wrapper {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+        padding: 20px;
+        font-family: sans-serif;
+    }
+    .trophy-card {
+        background: #1e293b;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        flex: 1;
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .trophy-svg {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .position-label {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .driver-name {
+        font-weight: bold;
+        margin-top: 5px;
+        color: white;
+    }
+    .team-name {
+        font-size: 0.8em;
+        margin-bottom: 15px;
+    }
+    .trophy-platform {
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+    }
+    /* Height differences for the podium effect */
+    .trophy-first { order: 2; height: 300px; }
+    .trophy-second { order: 1; height: 250px; }
+    .trophy-third { order: 3; height: 220px; }
+
+
+/* ============================================================================
+   INSIGHT BOX (Typewriter Effect)
+   ============================================================================ */
+
+.insight-box {
+    background: var(--glass-bg);
+    border: 1px solid var(--f1-red);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    color: var(--accent-green);
+    box-shadow: var(--glow-red);
+}
+
+.insight-box .cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+
+/* ============================================================================
+   METRICS / STATS
+   ============================================================================ */
+
+.metric-card {
+    background: var(--glass-bg);
+    padding: 20px;
+    text-align: center;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--f1-red) 0%, var(--accent-gold) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.metric-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 8px;
+}
+/* Metric Widgets Override for Sidebar */
+[data-testid="stMetricValue"] {
+    font-size: 1.4rem !important;
+    color: white !important;
+}
+
+/* ============================================================================
+   TABLES
+   ============================================================================ */
+
+.stDataFrame {
+    background: var(--glass-bg) !important;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.stDataFrame table {
+    border-collapse: collapse;
+}
+
+.stDataFrame th {
+    background: var(--bg-tertiary) !important;
+    color: var(--f1-red) !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 16px !important;
+}
+
+.stDataFrame td {
+    padding: 12px !important;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.stDataFrame tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+
+/* ============================================================================
+   CHARTS (Plotly)
+   ============================================================================ */
+
+.js-plotly-plot {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/* ============================================================================
+   LOADING SPINNER
+   ============================================================================ */
+
+.stSpinner > div {
+    border-top-color: var(--f1-red) !important;
+}
+
+
+/* ============================================================================
+   SUCCESS/WARNING/ERROR MESSAGES
+   ============================================================================ */
+
+.stSuccess {
+    background: rgba(16, 185, 129, 0.1) !important;
+    border-left: 4px solid var(--accent-green) !important;
+}
+
+.stWarning {
+    background: rgba(245, 158, 11, 0.1) !important;
+    border-left: 4px solid var(--accent-gold) !important;
+}
+
+.stError {
+    background: rgba(239, 68, 68, 0.1) !important;
+    border-left: 4px solid var(--f1-red) !important;
+}
+
+.stInfo {
+    background: rgba(59, 130, 246, 0.1) !important;
+    border-left: 4px solid var(--accent-blue) !important;
+}
+
+
+/* ============================================================================
+   RESPONSIVE DESIGN
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 1rem;
+    }
+    
+    .podium-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .podium-bar {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .glass-card {
+        padding: 16px;
+    }
+}
+
+
+/* ============================================================================
+   CUSTOM SCROLLBAR
+   ============================================================================ */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--f1-red);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FF0800;
+}
