@@ -40,7 +40,7 @@
 
 ### 🏁 Race Predictions
 * **Grid-to-Finish Forecasting:** Predict final race positions from qualifying results.
-* **Confidence Intervals:** 68% confidence bands for each prediction.
+* **Confidence Intervals:** 85% confidence bands for each prediction.
 * **Interactive Visualizations:** Plotly-based charts with predicted vs actual comparisons.
 
 ### 🎭 Sandbagging Detective
